@@ -42,6 +42,7 @@ function CompTurn() {
   if (cell[0] == cell[4] && cell[8] == 'player' && cell[0] == 0) PutHere = 0;
   if (cell[1] == cell[3] && cell[3] == 'player') PutHere = 0;
   if (cell[7] == cell[3] && cell[3] == 'player') PutHere = 6;
+  if (cell[4] == cell[0] && cell[4] == 'player') PutHere = 6;
   if (cell[2] == cell[6] && cell[2] == 'player') PutHere = 7;
   if (cell[1] == cell[3] && cell[1] == cell[8] && cell[1] == 'player') PutHere = 7;
   if (cell[7] == cell[3] && cell[7] == cell[2] && cell[7] == 'player') PutHere = 1;
